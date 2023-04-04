@@ -1,2 +1,4 @@
-# AnimeChan
-Um app para motivação com base em frases de anime 
+# Documentação da API Kitsu
+
+URL da documentaçãp: https://kitsu.docs.apiary.io/#
+URL da Api: https://kitsu.io/api/edge
