@@ -13,6 +13,7 @@ https://kitsu.io/api/edge/anime e https://kitsu.io/api/edge/manga.
 Atributos/parâmetros solicitados por cada método:
 
 Dicionário de dados:
+
 Métodos Anime:
 - createdAt: retorna a data de criação do anime especificado;
 - updateAt: última data de atualização do anime;
@@ -35,8 +36,8 @@ Métodos Anime:
 - subtype: onde foi passado;
 - status: status do anime;
 - tba:
-- posterImage:
-- coverImage:
+- posterImage: postagem de imagem sobre o anime;
+- coverImage: uma previa de imagens do anime;
 - episodeCount:
 - episodeLength:
 - youtubeVideoId: link para vídeo no youtube sobre o anime;
