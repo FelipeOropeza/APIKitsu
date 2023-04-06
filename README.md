@@ -1,4 +1,4 @@
-# Documentação da API Kitsu
+<h1 align="center"> # Documentação da API Kitsu </h1>
 **Nome da dupla:** Felipe Carvalho e Felipe Cipriano
 
 **URL da documentaçãp:** https://kitsu.docs.apiary.io/#
