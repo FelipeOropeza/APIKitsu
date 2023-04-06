@@ -148,10 +148,10 @@ Retorna o mesmo que o método Anime, porém filtrando para retornar apenas as is
 
 **Método Chapters:**
 
-| Nome | Descrição |
-| ---- | --------- |
-| createdAt | retorna a data de criação do capítulo especificado |
-| updatedAt | última data de atualização do capítulo |
+| Nome | | Tipo | Descrição |
+| ---- | | ---- |---------- |
+| createdAt | string |retorna a data de criação do capítulo especificado |
+| updatedAt | string | última data de atualização do capítulo |
 | titles | titulo em diferentes linguagens |
 | canonicalTitle |  título canônico |
 | volumeNumber | números de volumes |
