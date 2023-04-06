@@ -13,7 +13,7 @@ https://kitsu.io/api/edge/anime e https://kitsu.io/api/edge/manga.
 
 Atributos/parâmetros solicitados por cada método:
 
-Método Anime:
+**Método Anime:**
 
 | Nome | Descrição |
 | ---- | --------- |
