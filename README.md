@@ -6,13 +6,13 @@
 
 > **URL da Api:** https://kitsu.io/api/edge
 
-**Métodos e dados de Autenticação:**
+> **Métodos e dados de Autenticação:**
 Para se utilizar o método POST na api é preciso fazer uma autenticação por meio de um token, nele será preciso passar o seu o email e a senha do seu respectivo login, deixando o parâmetro grand-type sendo igual a password.
 
-Métodos disponíveis e indicação de qual/quais serão implementados na aplicação:
+> Métodos disponíveis e indicação de qual/quais serão implementados na aplicação:
 https://kitsu.io/api/edge/anime e https://kitsu.io/api/edge/manga.
 
-Atributos/parâmetros solicitados por cada método:
+> **Atributos/parâmetros solicitados por cada método:**
 
 **Método Anime:**
 
@@ -60,7 +60,7 @@ Esse método apenas tráz os animes em alta sem possibilidade de filtro;
 **Método Trending Manga:**
 Esse método apenas tráz os manga em alta sem possibilidade de filtro;
 
-Dicionário de dados:
+> **Dicionário de dados:**
 
 **Método Anime:**
 
