@@ -33,6 +33,19 @@ Esse método apenas tráz os animes em alta sem possibilidade de filtro;
 
 Método Manga:
 - chapterCount: número de capítulos;
+- filter[text]: pesquisa o nome do anime por string;
+- filter[categories]: string que especifica a categoria;
+- page[limit]: limita o quanto de dados podem ser retornados pela pesquisa; 
+- page[offset]: número de páginas dentro do limite;
+
+Método Chapters:
+- mangaId: específica o id do manga;
+- number: específica o número do capítulo;
+- page[limit]: limita o quanto de dados podem ser retornados pela pesquisa; 
+- page[offset]: número de páginas dentro do limite;
+
+Método Trending Manga:
+Esse método apenas tráz os manga em alta sem possibilidade de filtro;
 
 Dicionário de dados:
 
