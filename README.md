@@ -118,33 +118,33 @@ Retorna o mesmo que o método Anime, porém filtrando para retornar apenas as is
 
 | Nome | Tipo | Descrição |
 | ---- | ---- |---------- |
-| createdAt |  | retorna a data de criação do manga especificado |
-| updateAt |  | última data de atualização do manga |
-| slug |  | formato de texto que retorna os parâmetros da pesquisa realizada |
-| synopsis |  | sinopse do manga |
-| coverImageTopOffset |  | tamanho da imagem |
-| titles |  | titulo em diferentes linguagens |
-| canonicalTitle |  | título canônico |
-| abbreviatedTitles |  | titulos abreviados |
-| averageRating |  | avalição média no manga |
-| ratingFrequencies |  | notas dadas para manga |
-| userCount |  | número de requisições de usuário |
-| favoritesCount |  | incidências de favarotismos |
-| startDate |  | data de criação do manga |
-| endDate |  | data de finalização do manga |
-| popularityRank |  | rank de popularidade |
-| ratingRank |  | posisão de ranqueamento |
-| ageRating |  | classificação de idade |
-| ageRatingGuide |  | idade minima e descrição de classificação |
-| subtype |  | onde foi passado |
-| status |  | status do manga |
-| tba |  | se há um evento relacionado ao anime que foi confirmado |
-| posterImage |  | postagem de imagem sobre o anime |
-| coverImage |  | uma previa de imagens do anime |
-| chapterCount |  | números de capitulos |
-| volumeCount |  | números de volumes |
-| serialization |  | publicador que suporta o autor |
-| mangaType |  | tipo de manga (ex.: manhwa, oel, oneshot, ETC) | 
+| createdAt | string | retorna a data de criação do manga especificado |
+| updateAt | string | última data de atualização do manga |
+| slug | string | formato de texto que retorna os parâmetros da pesquisa realizada |
+| synopsis | string | sinopse do manga |
+| coverImageTopOffset | number | tamanho da imagem |
+| titles | string | titulo em diferentes linguagens |
+| canonicalTitle | number | título canônico |
+| abbreviatedTitles | number | titulos abreviados |
+| averageRating | string | avalição média no manga |
+| ratingFrequencies | string | notas dadas para manga |
+| userCount | number | número de requisições de usuário |
+| favoritesCount | number | incidências de favarotismos |
+| startDate | string YYYY-MM-DD date | data de criação do manga |
+| endDate | string YYYY-MM-DD date | data de finalização do manga |
+| popularityRank | number | rank de popularidade |
+| ratingRank | number | posisão de ranqueamento |
+| ageRating | enum | classificação de idade |
+| ageRatingGuide | string | idade minima e descrição de classificação |
+| subtype | enum | onde foi passado |
+| status | enum | status do manga |
+| tba | string | se há um evento relacionado ao anime que foi confirmado |
+| posterImage | string | postagem de imagem sobre o anime |
+| coverImage | string | uma previa de imagens do anime |
+| chapterCount | number | números de capitulos |
+| volumeCount | number | números de volumes |
+| serialization | string | publicador que suporta o autor |
+| mangaType | enum | tipo de manga (ex.: manhwa, oel, oneshot, ETC) | 
 
 **Método Chapters:**
 
