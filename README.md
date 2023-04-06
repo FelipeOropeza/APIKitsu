@@ -14,7 +14,7 @@ Atributos/parâmetros solicitados por cada método:
 
 Dicionário de dados:
 
-Métodos Anime:
+Método Anime:
 - createdAt: retorna a data de criação do anime especificado;
 - updateAt: última data de atualização do anime;
 - slug: formato de texto que retorna os parâmetros da pesquisa realizada;
@@ -43,3 +43,22 @@ Métodos Anime:
 - youtubeVideoId: link para vídeo no youtube sobre o anime;
 - showType: tipo de produção (ex.: tv, filme, OVA, etc);
 - nsfw: se tem conteúdo explícito;
+
+
+Método Episódio:
+- createdAt: retorna a data de criação do episódio especificado;
+- updateAt: última data de atualização do episódio;
+- synopsis: sinopse do episódio;
+- titles: titulo em diferentes linguagens;
+- canonicalTitle: título canônico;
+- seasonNumber: número da temporada do episódio;
+- number: número do episódio;
+- relativeNumber: número do episódio relativo a todos os outros / total de episódios;
+- airdate: data de lançamento do primeiro episódio da série;
+- lenght: comprimento do episódio
+- thumbnail: imagem de capa do episódio;
+
+Método Trending Anime:
+Retorna o mesmo que o método Anime, porém filtrando para retornar apenas as isformações sobre os animes em alta.
+
+Método Manga
