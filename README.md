@@ -157,7 +157,7 @@ Retorna o mesmo que o método Anime, porém filtrando para retornar apenas as is
 | volumeNumber | number | números de volumes |
 | number | number | número do capítulo |
 | synopsis | string | sinopse do capítulo |
-| published | strig YYYY-MM-DD date | quando foi publicado |
+| published | string YYYY-MM-DD date | quando foi publicado |
 | length | string | comprimento do capítulo |
 | thumbnail | string | imagem de capa do capítulo |
 
