@@ -126,6 +126,7 @@ Método Manga:
 - mangaType: tipo de manga (ex.: manhwa, oel, oneshot, ETC);
 
 | Método Chapters |
+| Nome | Descrição |
 | --------------- |
 | createdAt | retorna a data de criação do capítulo especificado |
 | updatedAt | última data de atualização do capítulo |
