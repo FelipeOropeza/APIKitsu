@@ -25,7 +25,7 @@ https://kitsu.io/api/edge/anime e https://kitsu.io/api/edge/manga.
 | season | number | especifica a época do ano em que deve filtrar a pesquisa |
 | seasonYear | number | especifica o ano em que deve filtrar a pesquisa |
 | streamers | string | especifica a plataforma oferece o streaming do anime |
-| ageRating | filtra a pesquisa por classificação de idade |
+| ageRating | number | filtra a pesquisa por classificação de idade |
 
 **Método Episodes:**
 
