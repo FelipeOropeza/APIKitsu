@@ -152,14 +152,14 @@ Retorna o mesmo que o método Anime, porém filtrando para retornar apenas as is
 | ---- | ---- |---------- |
 | createdAt | string |retorna a data de criação do capítulo especificado |
 | updatedAt | string | última data de atualização do capítulo |
-| titles | titulo em diferentes linguagens |
-| canonicalTitle |  título canônico |
-| volumeNumber | números de volumes |
-| number | númerp do capítulo |
-| synopsis | sinopse do capítulo |
-| published | quando foi publicado |
-| length | comprimento do capítulo |
-| thumbnail | imagem de capa do capítulo |
+| titles | string | titulo em diferentes linguagens |
+| canonicalTitle | string | título canônico |
+| volumeNumber | number | números de volumes |
+| number | number | número do capítulo |
+| synopsis | string | sinopse do capítulo |
+| published | strig YYYY-MM-DD date | quando foi publicado |
+| length | string | comprimento do capítulo |
+| thumbnail | string | imagem de capa do capítulo |
 
 **Método Trending Manga:**
 Retorna o mesmo que o método Manga, porém filtrando para retornar apenas as isformações sobre os Manga mais lidos.
