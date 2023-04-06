@@ -128,7 +128,7 @@ Método Manga:
 Método Chapters:
 
 | Nome | Descrição |
-| --------------- |
+| ---- | --------- |
 | createdAt | retorna a data de criação do capítulo especificado |
 | updatedAt | última data de atualização do capítulo |
 | titles | titulo em diferentes linguagens |
