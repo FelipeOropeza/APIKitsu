@@ -125,7 +125,7 @@ Método Manga:
 - serialization: publicador que suporta o autor;
 - mangaType: tipo de manga (ex.: manhwa, oel, oneshot, ETC);
 
-*Método Chapters:*
+**Método Chapters:**
 
 | Nome | Descrição |
 | ---- | --------- |
