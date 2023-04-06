@@ -42,4 +42,4 @@ Métodos Anime:
 - episodeLength: duração média dos episódios;
 - youtubeVideoId: link para vídeo no youtube sobre o anime;
 - showType: tipo de produção (ex.: tv, filme, OVA, etc);
-- nsfw: se tem contúdo explícito;
+- nsfw: se tem conteúdo explícito;
