@@ -89,3 +89,18 @@ Método Manga:
 - volumeCount: números de volumes;
 - serialization: publicador que suporta o autor;
 - mangaType: tipo de manga (ex.: manhwa, oel, oneshot, ETC);
+
+Método Chapters:
+- createdAt: retorna a data de criação do capítulo especificado;
+- updatedAt: última data de atualização do capítulo;
+- titles: titulo em diferentes linguagens;
+- canonicalTitle:  título canônico;
+- volumeNumber: números de volumes;
+- number: númerp do capítulo;
+- synopsis: sinopse do capítulo;
+- published: quando foi publicado;
+- length: comprimento do capítulo;
+- thumbnail: imagem de capa do capítulo;
+
+Método Trending Manga:
+Retorna o mesmo que o método Manga, porém filtrando para retornar apenas as isformações sobre os Manga mais lidos.
