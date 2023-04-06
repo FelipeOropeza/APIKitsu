@@ -16,46 +16,46 @@ https://kitsu.io/api/edge/anime e https://kitsu.io/api/edge/manga.
 
 **Método Anime:**
 
-| Nome | Descrição |
-| ---- | --------- |
-| filter[categories] | string que especifica a categoria |
-| filter[text] | pesquisa o nome do anime por string |
-| page[limit] | limita o quanto de dados podem ser retornados pela pesquisa |
-| page[offset] | número de páginas dentro do limite |
-| season | especifica a época do ano em que deve filtrar a pesquisa |
-| seasonYear | especifica o ano em que deve filtrar a pesquisa |
-| streamers | especifica a plataforma oferece o streaming do anime |
+| Nome | Tipo | Descrição |
+| ---- | ---- |---------- |
+| filter[categories] | string | string que especifica a categoria |
+| filter[text] | string | pesquisa o nome do anime por string |
+| page[limit] | number | limita o quanto de dados podem ser retornados pela pesquisa |
+| page[offset] | number | número de páginas dentro do limite |
+| season | number | especifica a época do ano em que deve filtrar a pesquisa |
+| seasonYear | number | especifica o ano em que deve filtrar a pesquisa |
+| streamers | string | especifica a plataforma oferece o streaming do anime |
 | ageRating | filtra a pesquisa por classificação de idade |
 
 **Método Episodes:**
 
-| Nome | Descrição |
-| ---- | --------- |
-| number | específica o número do episódio |
-| page[limit] | limita o quanto de dados podem ser retornados pela pesquisa | 
-| page[offset] | número de páginas dentro do limite |
+| Nome | Tipo | Descrição |
+| ---- | ---- |---------- |
+| number | number | específica o número do episódio |
+| page[limit] | number | limita o quanto de dados podem ser retornados pela pesquisa | 
+| page[offset] | number | número de páginas dentro do limite |
 
 **Método Trending Anime:**
 Esse método apenas tráz os animes em alta sem possibilidade de filtro;
 
 **Método Manga:**
 
-| Nome | Descrição |
-| ---- | --------- |
-| chapterCount | número de capítulos |
-| filter[text] | pesquisa o nome do anime por string |
-| filter[categories] | string que especifica a categoria |
-| page[limit] | limita o quanto de dados podem ser retornados pela pesquisa | 
-| page[offset] | número de páginas dentro do limite |
+| Nome | Tipo | Descrição |
+| ---- | ---- |---------- |
+| chapterCount | number | número de capítulos |
+| filter[text] | string | pesquisa o nome do anime por string |
+| filter[categories] | string | string que especifica a categoria |
+| page[limit] | number | limita o quanto de dados podem ser retornados pela pesquisa | 
+| page[offset] | number | número de páginas dentro do limite |
 
 **Método Chapters:**
 
-| Nome | Descrição |
-| ---- | --------- |
-| mangaId | específica o id do manga |
-| number | específica o número do capítulo |
-| page[limit] | limita o quanto de dados podem ser retornados pela pesquisa | 
-| page[offset] | número de páginas dentro do limite |
+| Nome | Tipo | Descrição |
+| ---- | ---- |---------- |
+| mangaId | number | específica o id do manga |
+| number | number | específica o número do capítulo |
+| page[limit] | number | limita o quanto de dados podem ser retornados pela pesquisa | 
+| page[offset] | number | número de páginas dentro do limite |
 
 **Método Trending Manga:**
 Esse método apenas tráz os manga em alta sem possibilidade de filtro;
