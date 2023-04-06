@@ -1,4 +1,5 @@
 # Documentação da API Kitsu
+Nome da dupla: Felipe Carvalho e Felipe Cipriano
 
 URL da documentaçãp: https://kitsu.docs.apiary.io/#
 
