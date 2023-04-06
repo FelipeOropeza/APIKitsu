@@ -12,6 +12,27 @@ https://kitsu.io/api/edge/anime e https://kitsu.io/api/edge/manga.
 
 Atributos/parâmetros solicitados por cada método:
 
+Método Anime:
+- filter[categories]: string que especifica a categoria;
+- filter[text]: pesquisa o nome do anime por string;
+- page[limit]: limita o quanto de dados podem ser retornados pela pesquisa; 
+- page[offset]: número de páginas dentro do limite;
+- season: especifica a época do ano em que deve filtrar a pesquisa;
+- seasonYear: especifica o ano em que deve filtrar a pesquisa;
+- streamers: especifica a plataforma oferece o streaming do anime;
+- ageRating: filtra a pesquisa por classificação de idade;
+
+Método Episodes:
+- number: específica o número do episódio;
+- page[limit]: limita o quanto de dados podem ser retornados pela pesquisa; 
+- page[offset]: número de páginas dentro do limite;
+
+Método Trending Anime:
+Esse método apenas tráz os animes em alta sem possibilidade de filtro;
+
+Método Manga:
+- chapterCount: número de capítulos;
+
 Dicionário de dados:
 
 Método Anime:
