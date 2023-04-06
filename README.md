@@ -64,52 +64,52 @@ Esse método apenas tráz os manga em alta sem possibilidade de filtro;
 
 **Método Anime:**
 
-| Nome | Descrição |
-| ---- | --------- |
-| createdAt | retorna a data de criação do anime especificado |
-| updateAt | última data de atualização do anime |
-| slug | formato de texto que retorna os parâmetros da pesquisa realizada |
-| synopsis | sinopse do anime |
-| coverImageTopOffset | tamanho da imagem |
-| titles | titulo em diferentes linguagens |
-| canonicalTitle | título canônico |
-| abbreviatedTitles | titulos abreviados |
-| averageRating | avalição média no anime |
-| ratingFrequencies | notas dadas para o anime |
-| userCount | número de requisições de usuário |
-| favoritesCount | incidências de favarotismos |
-| startDate | data de criação do anime |
-| endDate | data de finalização do anime |
-| popularityRank | rank de popularidade |
-| ratingRank | posisão de ranqueamento |
-| ageRating | classificação de idade |
-| ageRatingGuide | idade minima e descrição de classificação |
-| subtype | onde foi passado |
-| status | status do anime |
-| tba | se há um evento relacionado ao anime que foi confirmado |
-| posterImage | postagem de imagem sobre o anime |
-| coverImage | uma previa de imagens do anime |
-| episodeCount | quantidade de episódios |
-| episodeLength | duração média dos episódios |
-| youtubeVideoId | link para vídeo no youtube sobre o anime |
-| showType | tipo de produção (ex.: tv, filme, OVA, etc) |
-| nsfw | se tem conteúdo explícito |
+| Nome | Tipo | Descrição |
+| ---- | ---- |---------- |
+| createdAt | string | retorna a data de criação do anime especificado |
+| updateAt | string | última data de atualização do anime |
+| slug | string | formato de texto que retorna os parâmetros da pesquisa realizada |
+| synopsis | string | sinopse do anime |
+| coverImageTopOffset | number | tamanho da imagem |
+| titles | string | titulo em diferentes linguagens |
+| canonicalTitle | string | título canônico |
+| abbreviatedTitles | string | titulos abreviados |
+| averageRating | string | avalição média no anime |
+| ratingFrequencies | string | notas dadas para o anime |
+| userCount | number | número de requisições de usuário |
+| favoritesCount | number | incidências de favarotismos |
+| startDate | string YYYY-MM-DD date | data de criação do anime |
+| endDate | string YYYY-MM-DD date | data de finalização do anime |
+| popularityRank | number | rank de popularidade |
+| ratingRank | number | posisão de ranqueamento |
+| ageRating | enum | classificação de idade |
+| ageRatingGuide | string | idade minima e descrição de classificação |
+| subtype | enum | onde foi passado |
+| status | enum | status do anime |
+| tba | string | se há um evento relacionado ao anime que foi confirmado |
+| posterImage | string | postagem de imagem sobre o anime |
+| coverImage | string | uma previa de imagens do anime |
+| episodeCount | number | quantidade de episódios |
+| episodeLength | number | duração média dos episódios |
+| youtubeVideoId | string | link para vídeo no youtube sobre o anime |
+| showType | enum | tipo de produção (ex.: tv, filme, OVA, etc) |
+| nsfw | boolenan | se tem conteúdo explícito |
 
 **Método Episódio:**
 
-| Nome | Descrição |
-| ---- | --------- |
-| createdAt | retorna a data de criação do episódio especificado |
-| updateAt | última data de atualização do episódio |
-| synopsis | sinopse do episódio |
-| titles | titulo em diferentes linguagens |
-| canonicalTitle | título canônico |
-| seasonNumber | número da temporada do episódio |
-| number | número do episódio |
-| relativeNumber | número do episódio relativo a todos os outros / total de episódios |
-| airdate | data de lançamento do primeiro episódio da série |
-| lenght | comprimento do episódio |
-| thumbnail | imagem de capa do episódio |
+| Nome | Tipo | Descrição |
+| ---- | ---- |---------- |
+| createdAt | string | retorna a data de criação do episódio especificado |
+| updateAt | string | última data de atualização do episódio |
+| titles | string | titulo em diferentes linguagens |
+| canonicalTitle | string | título canônico |
+| seasonNumber | number | número da temporada do episódio |
+| number | number | número do episódio |
+| relativeNumber | number | número do episódio relativo a todos os outros / total de episódios |
+| synopsis | string | sinopse do episódio |
+| airdate | string YYYY-MM-DD date | data de lançamento do primeiro episódio da série |
+| lenght | string | comprimento do episódio |
+| thumbnail | string | imagem de capa do episódio |
 
 **Método Trending Anime:**
 Retorna o mesmo que o método Anime, porém filtrando para retornar apenas as isformações sobre os animes em alta.
