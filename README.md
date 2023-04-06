@@ -139,3 +139,5 @@ Método Chapters:
 
 Método Trending Manga:
 Retorna o mesmo que o método Manga, porém filtrando para retornar apenas as isformações sobre os Manga mais lidos.
+
+| First Header  | Second Header |
