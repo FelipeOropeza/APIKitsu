@@ -35,11 +35,11 @@ Métodos Anime:
 - ageRatingGuide: idade minima e descrição de classificação
 - subtype: onde foi passado;
 - status: status do anime;
-- tba:
+- tba: se há um evento relacionado ao anime que foi confirmado
 - posterImage: postagem de imagem sobre o anime;
 - coverImage: uma previa de imagens do anime;
-- episodeCount:
-- episodeLength:
+- episodeCount: quantidade de episódios;
+- episodeLength: duração média dos episódios;
 - youtubeVideoId: link para vídeo no youtube sobre o anime;
-- showType:
+- showType: tipo de produção (ex.: tv, filme, OVA, etc);
 - nsfw: se tem contúdo explisito;
