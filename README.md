@@ -125,7 +125,7 @@ Método Manga:
 - serialization: publicador que suporta o autor;
 - mangaType: tipo de manga (ex.: manhwa, oel, oneshot, ETC);
 
-Método Chapters:
+*Método Chapters:*
 
 | Nome | Descrição |
 | ---- | --------- |
@@ -142,8 +142,3 @@ Método Chapters:
 
 Método Trending Manga:
 Retorna o mesmo que o método Manga, porém filtrando para retornar apenas as isformações sobre os Manga mais lidos.
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
