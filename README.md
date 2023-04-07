@@ -13,39 +13,39 @@ Para se utilizar o método POST na api é preciso fazer uma autenticação por m
 
 **- Métodos usados:**
 
-Anime: este método permite obter informações sobre animes disponíveis na plataforma, como título, sinopse, datas de lançamento, gênero, classificação e estúdio responsável.
+**Anime:** este método permite obter informações sobre animes disponíveis na plataforma, como título, sinopse, datas de lançamento, gênero, classificação e estúdio responsável.
 
-Manga: este método é semelhante ao anterior, mas em vez de animes, retorna informações sobre mangás, incluindo títulos, sinopses, datas de lançamento, gênero e classificação.
+**Manga:** este método é semelhante ao anterior, mas em vez de animes, retorna informações sobre mangás, incluindo títulos, sinopses, datas de lançamento, gênero e classificação.
 
 **- Métodos não usados:**
 
-Categories: este método retorna uma lista de categorias disponíveis na plataforma, como gêneros, temas e públicos-alvo.
+**Categories:** este método retorna uma lista de categorias disponíveis na plataforma, como gêneros, temas e públicos-alvo.
 
-Media Relationships: este método permite encontrar relacionamentos entre diferentes tipos de mídia, como animes, mangás, light novels e jogos, mostrando quais obras fazem parte do mesmo universo ou história.
+**Media Relationships:** este método permite encontrar relacionamentos entre diferentes tipos de mídia, como animes, mangás, light novels e jogos, mostrando quais obras fazem parte do mesmo universo ou história.
 
-Media Follows: este método permite aos usuários acompanhar e receber atualizações sobre os animes e mangás que estão assistindo ou lendo.
+**Media Follows:** este método permite aos usuários acompanhar e receber atualizações sobre os animes e mangás que estão assistindo ou lendo.
 
-Streamers: este método retorna informações sobre os serviços de streaming que possuem licenças para transmitir um determinado anime.
+**Streamers:** este método retorna informações sobre os serviços de streaming que possuem licenças para transmitir um determinado anime.
 
-Users: este método permite buscar informações sobre usuários da plataforma, como nome, bio, avatar e estatísticas.
+**Users:** este método permite buscar informações sobre usuários da plataforma, como nome, bio, avatar e estatísticas.
 
-User Libraries: este método mostra a biblioteca de mídia de um usuário, incluindo quais animes e mangás ele já assistiu ou leu.
+**User Libraries:** este método mostra a biblioteca de mídia de um usuário, incluindo quais animes e mangás ele já assistiu ou leu.
 
-Reactions: este método retorna uma lista de reações disponíveis na plataforma, como curtidas, favoritos, notas e comentários.
+**Reactions:** este método retorna uma lista de reações disponíveis na plataforma, como curtidas, favoritos, notas e comentários.
 
-Posts: este método permite acessar os posts feitos por usuários da plataforma sobre animes, mangás e outros assuntos relacionados.
+**Posts:** este método permite acessar os posts feitos por usuários da plataforma sobre animes, mangás e outros assuntos relacionados.
 
-Comments: este método retorna uma lista de comentários feitos em posts, animes ou mangás.
+**Comments:** este método retorna uma lista de comentários feitos em posts, animes ou mangás.
 
-Characters: este método permite buscar informações sobre personagens presentes em animes e mangás, como nome, descrição, imagens e dubladores.
+**Characters:** este método permite buscar informações sobre personagens presentes em animes e mangás, como nome, descrição, imagens e dubladores.
 
-Producers & Staff: este método retorna informações sobre os produtores e membros da equipe responsáveis pela criação dos animes e mangás.
+**Producers & Staff:** este método retorna informações sobre os produtores e membros da equipe responsáveis pela criação dos animes e mangás.
 
-Groups: este método retorna informações sobre grupos e equipes de fansubbers e scanlators que trabalham na tradução de animes e mangás para outras línguas.
+**Groups:** este método retorna informações sobre grupos e equipes de fansubbers e scanlators que trabalham na tradução de animes e mangás para outras línguas.
 
-Reports: este método permite aos usuários da plataforma denunciar conteúdos inapropriados, como spams, assédios e violência.
+**Reports:** este método permite aos usuários da plataforma denunciar conteúdos inapropriados, como spams, assédios e violência.
 
-Site Announcements: este método retorna informações sobre as últimas atualizações e melhorias realizadas na plataforma.
+**Site Announcements:** este método retorna informações sobre as últimas atualizações e melhorias realizadas na plataforma.
 
 > **Atributos/parâmetros solicitados por cada método:**
 
