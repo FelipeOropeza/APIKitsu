@@ -11,12 +11,14 @@ Para se utilizar o método POST na api é preciso fazer uma autenticação por m
 
 > **Métodos disponíveis e indicação de qual/quais serão implementados na aplicação:**
 
-- Métodos usados:
+**- Métodos usados:**
+
 Anime: este método permite obter informações sobre animes disponíveis na plataforma, como título, sinopse, datas de lançamento, gênero, classificação e estúdio responsável.
 
 Manga: este método é semelhante ao anterior, mas em vez de animes, retorna informações sobre mangás, incluindo títulos, sinopses, datas de lançamento, gênero e classificação.
 
-- Métodos não usados:
+**- Métodos não usados:**
+
 Categories: este método retorna uma lista de categorias disponíveis na plataforma, como gêneros, temas e públicos-alvo.
 
 Media Relationships: este método permite encontrar relacionamentos entre diferentes tipos de mídia, como animes, mangás, light novels e jogos, mostrando quais obras fazem parte do mesmo universo ou história.
