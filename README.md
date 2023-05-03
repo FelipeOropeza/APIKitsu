@@ -200,7 +200,8 @@ Retorna o mesmo que o método Anime, porém filtrando para retornar apenas as is
 Retorna o mesmo que o método Manga, porém filtrando para retornar apenas as isformações sobre os Manga mais lidos.
 
 **<h1 align="center">Mapa de navegação: </h1>**
-![Cópia de Mapa de navegação](https://user-images.githubusercontent.com/101806766/235956936-7fa15f1a-a6e1-43d9-9644-ff9f3f506e51.jpeg)
+![Cópia de Mapa de navegação (2)](https://user-images.githubusercontent.com/101806766/235957623-bf760044-d5ef-4389-aa1f-fd51c84d698f.jpeg)
+
 
 **Diagramas do banco de dados local:**
 
