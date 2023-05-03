@@ -202,7 +202,6 @@ Retorna o mesmo que o método Manga, porém filtrando para retornar apenas as is
 **<h1 align="center">Mapa de navegação: </h1>**
 ![Cópia de Mapa de navegação (2)](https://user-images.githubusercontent.com/101806766/235957623-bf760044-d5ef-4389-aa1f-fd51c84d698f.jpeg)
 
-
 **<h1 align="center">Diagramas do banco de dados local:</h1>**
 
-<center>![Diagrama sem nome (4)](https://user-images.githubusercontent.com/101806766/235948145-fdd10e6b-0004-4731-b730-168dcc81e2a9.jpg)</center>
+![Diagrama sem nome (4)](https://user-images.githubusercontent.com/101806766/235948145-fdd10e6b-0004-4731-b730-168dcc81e2a9.jpg)
