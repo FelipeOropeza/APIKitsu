@@ -204,4 +204,4 @@ Retorna o mesmo que o método Manga, porém filtrando para retornar apenas as is
 
 **<h1 align="center">Diagramas do banco de dados local:</h1>**
 
-![Diagrama sem nome (4)](https://user-images.githubusercontent.com/101806766/235948145-fdd10e6b-0004-4731-b730-168dcc81e2a9.jpg)
+![Diagrama sem nome](https://user-images.githubusercontent.com/101806766/236074493-179f726b-9c86-4b09-89e4-2a4fe2fed289.jpg)
