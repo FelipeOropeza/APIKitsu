@@ -199,8 +199,9 @@ Retorna o mesmo que o método Anime, porém filtrando para retornar apenas as is
 **Método Trending Manga:**
 Retorna o mesmo que o método Manga, porém filtrando para retornar apenas as isformações sobre os Manga mais lidos.
 
-<h1 align="center">**Mapa de navegação: </h1>
-<h1 align="center"></h1>
+**<h1 align="center">Mapa de navegação: </h1>**
+<h1 align="center">![Cópia de Mapa de navegação](https://user-images.githubusercontent.com/101806766/235956936-7fa15f1a-a6e1-43d9-9644-ff9f3f506e51.jpeg)
+</h1>
 
 **Diagramas do banco de dados local:**
 
