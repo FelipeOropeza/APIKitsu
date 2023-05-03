@@ -202,3 +202,6 @@ Retorna o mesmo que o método Manga, porém filtrando para retornar apenas as is
 **Diagramas do banco de dados local:**
 
 ![Diagrama sem nome drawio](https://user-images.githubusercontent.com/101806766/235938169-15df26ad-e79a-40d8-b7d0-95b5d89f00e0.png)
+
+
+![Diagrama sem nome (1)](https://user-images.githubusercontent.com/101806766/235941708-fef0181c-966b-42a3-8b0c-e3edb5428acd.png)
