@@ -200,8 +200,10 @@ Retorna o mesmo que o método Anime, porém filtrando para retornar apenas as is
 Retorna o mesmo que o método Manga, porém filtrando para retornar apenas as isformações sobre os Manga mais lidos.
 
 **Descrição detalhada da aplicação:**
-A apliacação tem o foco em mostrar para o usuário suas pesquisa por meio da API Kitsu, onde o mesmo fara a sua pesquisa baseado
-no nome do anime desejado
+A aplicação tem o foco em mostrar para o usuário suas pesquisa por meio da API Kitsu, onde o mesmo fara a sua busca se baseado
+no nome do anime desejado, e tera seu retorno com base no que foi solicitado, com no maximo três animes retornados. No momento que ocorreu a pesquisa
+o usario vai ter a opção de favorita um ou varios animes que foram pesquisados, fazendo que o mesmo veja e acesso os anime que ela tenha favoritado, para 
+o cliente acessa essa funcinalidade será preciso que ele faça o login na aplicação, e se caso ele não tenha seja possivel fazer o cadastro.
 
 **<h1 align="center">Mapa de navegação: </h1>**
 
