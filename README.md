@@ -207,4 +207,6 @@ Retorna o mesmo que o método Manga, porém filtrando para retornar apenas as is
 ![Diagrama sem nome](https://user-images.githubusercontent.com/101806766/236074493-179f726b-9c86-4b09-89e4-2a4fe2fed289.jpg)
 
 **<h1 align="center">Diagram de Classes: </h1>**
+<p align="center">
 ![Diagrama de classe](https://user-images.githubusercontent.com/101806766/236201158-e32e5ec0-c57c-4f5b-aeab-f591c0b3caf1.jpg)
+</p>
