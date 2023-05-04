@@ -199,13 +199,13 @@ Retorna o mesmo que o método Anime, porém filtrando para retornar apenas as is
 **Método Trending Manga:**
 Retorna o mesmo que o método Manga, porém filtrando para retornar apenas as isformações sobre os Manga mais lidos.
 
-**<h1 align="center">Mapa de navegação: </h1>**
-
-![Cópia de Mapa de navegação (2)](https://user-images.githubusercontent.com/101806766/235957623-bf760044-d5ef-4389-aa1f-fd51c84d698f.jpeg)
-
 **Descrição detalhada da aplicação:**
 A apliacação tem o foco em mostrar para o usuário suas pesquisa por meio da API Kitsu, onde o mesmo fara a sua pesquisa baseado
 no nome do anime desejado
+
+**<h1 align="center">Mapa de navegação: </h1>**
+
+![Cópia de Mapa de navegação (2)](https://user-images.githubusercontent.com/101806766/235957623-bf760044-d5ef-4389-aa1f-fd51c84d698f.jpeg)
 
 **<h1 align="center">Diagramas do banco de dados local:</h1>**
 
