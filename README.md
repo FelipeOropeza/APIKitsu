@@ -208,5 +208,5 @@ Retorna o mesmo que o método Manga, porém filtrando para retornar apenas as is
 
 **<h1 align="center">Diagram de Classes: </h1>**
 <p align="center">
-  <img width="880" height="800" src="https://user-images.githubusercontent.com/101806766/236201158-e32e5ec0-c57c-4f5b-aeab-f591c0b3caf1.jpg">
+  <img width="770" height="700" src="https://user-images.githubusercontent.com/101806766/236201158-e32e5ec0-c57c-4f5b-aeab-f591c0b3caf1.jpg">
 </p>
