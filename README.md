@@ -220,5 +220,5 @@ o cliente acessa essa funcinalidade será preciso que ele faça o login na aplic
 
 **<h1 align="center">Protótipo: </h1>**
 <p align="center">
-  ![Capturar](https://user-images.githubusercontent.com/118677651/236357564-2e84dd86-76c3-4ebe-a585-9ffd65421151.PNG)
+  <img width="550" height="500" src="[https://user-images.githubusercontent.com/101806766/236340414-fc84acca-bd27-436f-abd9-22f9071aab73.jpg">
 </p>
