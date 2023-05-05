@@ -219,6 +219,6 @@ o cliente acessa essa funcinalidade será preciso que ele faça o login na aplic
 </p>
 
 **<h1 align="center">Protótipo: </h1>**
-< p 
-  ![Capturar](https://user-images.githubusercontent.com/118677651/236357879-5adcf4f0-d9f1-4354-af50-ccee145b3971.PNG)
+
+  ! [Capturar] (https://user-images.githubusercontent.com/118677651/236357879-5adcf4f0-d9f1-4354-af50-ccee145b3971.PNG)
 
