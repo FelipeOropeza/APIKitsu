@@ -218,4 +218,6 @@ o cliente acessa essa funcinalidade será preciso que ele faça o login na aplic
   <img width="550" height="500" src="https://user-images.githubusercontent.com/101806766/236340414-fc84acca-bd27-436f-abd9-22f9071aab73.jpg">
 </p>
 
-![Capturar](https://user-images.githubusercontent.com/118677651/236357307-37111893-396c-4eb8-8ab5-16f11e602830.PNG)
+<p align="center">
+  <img width="550" height="500" src="[https://user-images.githubusercontent.com/101806766/236340414-fc84acca-bd27-436f-abd9-22f9071aab73.jpg](https://user-images.githubusercontent.com/118677651/236357307-37111893-396c-4eb8-8ab5-16f11e602830.PNG)">
+</p>
