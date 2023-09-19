@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.kitsuapi.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.example.kitsuapi.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.kitsuapi.app-mergeDebugResources-40:/layout/new_app_widget.xml",
+        "source": "com.example.kitsuapi.app-main-43:/layout/new_app_widget.xml"
+    },
+    {
+        "merged": "com.example.kitsuapi.app-mergeDebugResources-40:/layout/activity_cadastro.xml",
+        "source": "com.example.kitsuapi.app-main-43:/layout/activity_cadastro.xml"
+    }
+]

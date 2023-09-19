@@ -4,14 +4,14 @@
             "outputFile": "com.example.kitsuapi.app-mergeDebugResources-39:/values-night-v31/values-night-v31.xml",
             "map": [
                 {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-night-v31\\themes.xml",
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-night-v31\\themes.xml",
                     "from": {
                         "startLines": "5",
                         "startColumns": "4",
-                        "startOffsets": "166",
+                        "startOffsets": "171",
                         "endLines": "8",
                         "endColumns": "12",
-                        "endOffsets": "476"
+                        "endOffsets": "484"
                     },
                     "to": {
                         "startLines": "2",

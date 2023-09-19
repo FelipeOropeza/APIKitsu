@@ -1872,13 +1872,13 @@
             "outputFile": "com.example.kitsuapi.app-merged_res-41:/values-w1240dp-v13_values-w1240dp-v13.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "16",
+                        "startOffsets": "17",
                         "endColumns": "42",
-                        "endOffsets": "54"
+                        "endOffsets": "55"
                     },
                     "to": {
                         "startLines": "2",
@@ -1984,6 +1984,25 @@
             "outputFile": "com.example.kitsuapi.app-merged_res-41:/values-v21_values-v21.arsc.flat",
             "map": [
                 {
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "2,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "19,326",
+                        "endLines": "6,12",
+                        "endColumns": "12,12",
+                        "endOffsets": "318,651"
+                    },
+                    "to": {
+                        "startLines": "419,424",
+                        "startColumns": "4,4",
+                        "startOffsets": "30098,30398",
+                        "endLines": "423,428",
+                        "endColumns": "12,12",
+                        "endOffsets": "30393,30719"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Usuário\\.gradle\\caches\\transforms-3\\6690daf909aed306e83f580bdb482290\\transformed\\core-1.9.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
@@ -2019,25 +2038,6 @@
                         "endLines": "20,21,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41,43,44,45,46,47,49,51,53,55,57,59,60,65,67,69,70,71,73,75,76,77,78,79,84,137,140,183,186,201,209,211,213,216,220,223,224,225,228,229,230,231,232,233,236,237,239,241,243,245,249,251,252,253,254,256,260,262,264,265,266,267,268,269,271,298,299,309,310,311,323,335",
                         "endColumns": "90,102,102,104,106,108,108,108,108,108,106,102,118,12,12,104,120,100,12,12,102,118,106,102,12,12,12,12,12,12,118,12,12,12,111,146,12,12,74,88,86,100,102,12,12,12,12,12,12,12,12,12,12,12,88,110,12,100,94,122,128,116,12,98,12,12,12,12,12,12,92,110,55,12,12,12,12,94,90,90,92,116,12,70,82,12,56,57,12,12",
                         "endOffsets": "1689,1792,1895,2000,2107,2216,2325,2434,2543,2652,2759,2862,2981,3136,3291,3396,3517,3618,3765,3906,4009,4128,4235,4338,4493,4664,4813,4978,5135,5286,5405,5756,5905,6054,6166,6313,6466,6613,6688,6777,6864,6965,7492,11118,11303,14073,14270,15405,15972,16095,16208,16391,16646,16847,16936,17047,17280,17381,17476,17599,17728,17845,18022,18121,18256,18399,18534,18653,18854,18973,19066,19177,19233,19340,19535,19646,19779,19874,19965,20056,20149,20266,20405,22569,22652,23275,23332,23390,24014,24650"
-                    }
-                },
-                {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-v21\\styles.xml",
-                    "from": {
-                        "startLines": "2,8",
-                        "startColumns": "4,4",
-                        "startOffsets": "17,318",
-                        "endLines": "6,12",
-                        "endColumns": "12,12",
-                        "endOffsets": "312,639"
-                    },
-                    "to": {
-                        "startLines": "419,424",
-                        "startColumns": "4,4",
-                        "startOffsets": "30098,30398",
-                        "endLines": "423,428",
-                        "endColumns": "12,12",
-                        "endOffsets": "30393,30719"
                     }
                 },
                 {
@@ -2241,25 +2241,6 @@
                     }
                 },
                 {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-v23\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "64",
-                        "endLines": "7",
-                        "endColumns": "12",
-                        "endOffsets": "430"
-                    },
-                    "to": {
-                        "startLines": "53",
-                        "startColumns": "4",
-                        "startOffsets": "3382",
-                        "endLines": "58",
-                        "endColumns": "12",
-                        "endOffsets": "3698"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Usuário\\.gradle\\caches\\transforms-3\\5b806517f6905f56068ba84ea5e93087\\transformed\\material-1.5.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,8,13,17,20,23,26,31,34,38",
@@ -2276,6 +2257,25 @@
                         "endLines": "61,64,69,73,76,79,82,87,90,94,98",
                         "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
                         "endOffsets": "3914,4124,4444,4681,4888,5095,5298,5630,5832,6097,6370"
+                    }
+                },
+                {
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-v23\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "66",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "437"
+                    },
+                    "to": {
+                        "startLines": "53",
+                        "startColumns": "4",
+                        "startOffsets": "3382",
+                        "endLines": "58",
+                        "endColumns": "12",
+                        "endOffsets": "3698"
                     }
                 },
                 {
@@ -2948,23 +2948,6 @@
             "outputFile": "com.example.kitsuapi.app-merged_res-41:/values-land_values-land.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-land\\dimens.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "41",
-                        "endOffsets": "53"
-                    },
-                    "to": {
-                        "startLines": "5",
-                        "startColumns": "4",
-                        "startOffsets": "264",
-                        "endColumns": "41",
-                        "endOffsets": "301"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Usuário\\.gradle\\caches\\transforms-3\\5b806517f6905f56068ba84ea5e93087\\transformed\\material-1.5.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,32",
@@ -2981,6 +2964,23 @@
                         "endLines": "6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,29,35,40",
                         "endColumns": "74,73,72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10",
                         "endOffsets": "376,450,523,593,665,735,800,867,937,1009,1078,1147,1229,1319,1395,1463,1530,1608,1673,1740,1912,2307,2576"
+                    }
+                },
+                {
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "41",
+                        "endOffsets": "54"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endColumns": "41",
+                        "endOffsets": "301"
                     }
                 },
                 {
@@ -3333,25 +3333,6 @@
             "outputFile": "com.example.kitsuapi.app-merged_res-41:/values-v31_values-v31.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-v31\\styles.xml",
-                    "from": {
-                        "startLines": "2,9",
-                        "startColumns": "4,4",
-                        "startOffsets": "17,373",
-                        "endLines": "7,14",
-                        "endColumns": "12,12",
-                        "endOffsets": "367,749"
-                    },
-                    "to": {
-                        "startLines": "356,362",
-                        "startColumns": "4,4",
-                        "startOffsets": "32584,32939",
-                        "endLines": "361,367",
-                        "endColumns": "12,12",
-                        "endOffsets": "32934,33315"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Usuário\\.gradle\\caches\\transforms-3\\5b806517f6905f56068ba84ea5e93087\\transformed\\material-1.5.0\\res\\values-v31\\values-v31.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,220,264,308",
@@ -3371,14 +3352,14 @@
                     }
                 },
                 {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-v31\\themes.xml",
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-v31\\themes.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",
-                        "startOffsets": "250",
+                        "startOffsets": "256",
                         "endLines": "9",
                         "endColumns": "12",
-                        "endOffsets": "560"
+                        "endOffsets": "569"
                     },
                     "to": {
                         "startLines": "176",
@@ -3387,6 +3368,25 @@
                         "endLines": "179",
                         "endColumns": "12",
                         "endOffsets": "17688"
+                    }
+                },
+                {
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-v31\\styles.xml",
+                    "from": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "19,382",
+                        "endLines": "7,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "374,763"
+                    },
+                    "to": {
+                        "startLines": "356,362",
+                        "startColumns": "4,4",
+                        "startOffsets": "32584,32939",
+                        "endLines": "361,367",
+                        "endColumns": "12,12",
+                        "endOffsets": "32934,33315"
                     }
                 }
             ]
@@ -5029,14 +5029,14 @@
                     }
                 },
                 {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
                         "startLines": "2,7,19,9",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "100,323,865,389",
+                        "startOffsets": "102,330,884,398",
                         "endLines": "5,7,22,17",
                         "endColumns": "12,64,12,12",
-                        "endOffsets": "317,383,1126,859"
+                        "endOffsets": "322,390,1148,876"
                     },
                     "to": {
                         "startLines": "2144,5609,5610,5614",
@@ -5067,23 +5067,6 @@
                     }
                 },
                 {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "2,5,4,6,7,3",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,189,139,240,291,97",
-                        "endColumns": "41,50,49,50,50,41",
-                        "endOffsets": "92,235,184,286,337,134"
-                    },
-                    "to": {
-                        "startLines": "594,652,653,654,655,829",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "30016,34052,34103,34153,34204,46733",
-                        "endColumns": "41,50,49,50,50,41",
-                        "endOffsets": "30053,34098,34148,34199,34250,46770"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Usuário\\.gradle\\caches\\transforms-3\\12d7cad622d5e92a50dacc8834f619a0\\transformed\\appcompat-resources-1.6.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,18,24,34,50",
@@ -5100,6 +5083,23 @@
                         "endLines": "8084,8090,8100,11427,11431",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "535367,535545,535829,656917,657044"
+                    }
+                },
+                {
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "2,5,4,6,7,3",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "57,194,143,246,298,100",
+                        "endColumns": "41,50,49,50,50,41",
+                        "endOffsets": "94,240,188,292,344,137"
+                    },
+                    "to": {
+                        "startLines": "594,652,653,654,655,829",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "30016,34052,34103,34153,34204,46733",
+                        "endColumns": "41,50,49,50,50,41",
+                        "endOffsets": "30053,34098,34148,34199,34250,46770"
                     }
                 },
                 {
@@ -5122,6 +5122,25 @@
                     }
                 },
                 {
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "62,1,63,61,11,4,13,9,15,25,6,21,17,19,8,5,22,2",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4116,17,4167,4064,467,176,523,396,578,883,308,773,629,701,349,241,836,64",
+                        "endLines": "62,1,63,61,11,4,13,9,15,60,6,21,17,19,8,5,22,2",
+                        "endColumns": "49,45,84,50,52,63,51,67,47,13,37,61,68,68,45,65,41,54",
+                        "endOffsets": "4161,58,4247,4110,515,235,570,459,621,4058,341,830,693,765,390,302,873,114"
+                    },
+                    "to": {
+                        "startLines": "1609,1611,1612,1614,1617,1627,1630,1631,1633,1634,1753,1754,1755,1756,1762,1764,1766,1767",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "97615,97748,97794,98029,98449,99395,99766,99818,99945,99993,115338,115376,115438,115507,116378,116477,116614,116656",
+                        "endLines": "1609,1611,1612,1614,1617,1627,1630,1631,1633,1669,1753,1754,1755,1756,1762,1764,1766,1767",
+                        "endColumns": "49,45,84,50,52,63,51,67,47,13,37,61,68,68,45,65,41,54",
+                        "endOffsets": "97660,97789,97874,98075,98497,99454,99813,99881,99988,103133,115371,115433,115502,115571,116419,116538,116651,116706"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Usuário\\.gradle\\caches\\transforms-3\\e356bb9200c3a079164d966b8661b66d\\transformed\\drawerlayout-1.1.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -5138,44 +5157,6 @@
                         "endLines": "115,118,924,9967",
                         "endColumns": "55,47,51,24",
                         "endOffsets": "5732,5888,53096,605488"
-                    }
-                },
-                {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values\\attrs.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endLines": "5",
-                        "endColumns": "24",
-                        "endOffsets": "265"
-                    },
-                    "to": {
-                        "startLines": "8668",
-                        "startColumns": "4",
-                        "startOffsets": "555018",
-                        "endLines": "8672",
-                        "endColumns": "24",
-                        "endOffsets": "555264"
-                    }
-                },
-                {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "2,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "17,249",
-                        "endLines": "5,10",
-                        "endColumns": "12,12",
-                        "endOffsets": "243,490"
-                    },
-                    "to": {
-                        "startLines": "6395,6399",
-                        "startColumns": "4,4",
-                        "startOffsets": "433449,433680",
-                        "endLines": "6398,6402",
-                        "endColumns": "12,12",
-                        "endOffsets": "433675,433921"
                     }
                 },
                 {
@@ -5214,6 +5195,25 @@
                         "endLines": "86,7937,9845,9929",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "4506,530272,599476,603992"
+                    }
+                },
+                {
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "19,256",
+                        "endLines": "5,10",
+                        "endColumns": "12,12",
+                        "endOffsets": "248,500"
+                    },
+                    "to": {
+                        "startLines": "6395,6399",
+                        "startColumns": "4,4",
+                        "startOffsets": "433449,433680",
+                        "endLines": "6398,6402",
+                        "endColumns": "12,12",
+                        "endOffsets": "433675,433921"
                     }
                 },
                 {
@@ -5344,6 +5344,25 @@
                     }
                 },
                 {
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values\\attrs.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "5",
+                        "endColumns": "24",
+                        "endOffsets": "270"
+                    },
+                    "to": {
+                        "startLines": "8668",
+                        "startColumns": "4",
+                        "startOffsets": "555018",
+                        "endLines": "8672",
+                        "endColumns": "24",
+                        "endOffsets": "555264"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Usuário\\.gradle\\caches\\transforms-3\\05c84dba33780c7e01077a16068d7f3a\\transformed\\lifecycle-runtime-2.5.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -5414,23 +5433,6 @@
                     }
                 },
                 {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "1,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "16,212",
-                        "endColumns": "41,43",
-                        "endOffsets": "53,251"
-                    },
-                    "to": {
-                        "startLines": "976,1415",
-                        "startColumns": "4,4",
-                        "startOffsets": "56424,86024",
-                        "endColumns": "41,43",
-                        "endOffsets": "56461,86063"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Usuário\\.gradle\\caches\\transforms-3\\3f1089eaa24908819cb7fdfe19dac943\\transformed\\recyclerview-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -5450,22 +5452,20 @@
                     }
                 },
                 {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
-                        "startLines": "62,1,63,61,11,4,13,9,15,25,6,21,17,19,8,5,22,2",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4054,16,4104,4003,456,172,510,387,563,858,302,752,612,682,341,236,814,62",
-                        "endLines": "62,1,63,61,11,4,13,9,15,60,6,21,17,19,8,5,22,2",
-                        "endColumns": "49,45,84,50,52,63,51,67,47,13,37,61,68,68,45,65,41,54",
-                        "endOffsets": "4099,57,4184,4049,504,231,557,450,606,3998,335,809,676,746,382,297,851,112"
+                        "startLines": "1,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "17,219",
+                        "endColumns": "41,43",
+                        "endOffsets": "54,258"
                     },
                     "to": {
-                        "startLines": "1609,1611,1612,1614,1617,1627,1630,1631,1633,1634,1753,1754,1755,1756,1762,1764,1766,1767",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "97615,97748,97794,98029,98449,99395,99766,99818,99945,99993,115338,115376,115438,115507,116378,116477,116614,116656",
-                        "endLines": "1609,1611,1612,1614,1617,1627,1630,1631,1633,1669,1753,1754,1755,1756,1762,1764,1766,1767",
-                        "endColumns": "49,45,84,50,52,63,51,67,47,13,37,61,68,68,45,65,41,54",
-                        "endOffsets": "97660,97789,97874,98075,98497,99454,99813,99881,99988,103133,115371,115433,115502,115571,116419,116538,116651,116706"
+                        "startLines": "976,1415",
+                        "startColumns": "4,4",
+                        "startOffsets": "56424,86024",
+                        "endColumns": "41,43",
+                        "endOffsets": "56461,86063"
                     }
                 },
                 {
@@ -6082,14 +6082,14 @@
             "outputFile": "com.example.kitsuapi.app-merged_res-41:/values-night-v31_values-night-v31.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-night-v31\\themes.xml",
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-night-v31\\themes.xml",
                     "from": {
                         "startLines": "5",
                         "startColumns": "4",
-                        "startOffsets": "166",
+                        "startOffsets": "171",
                         "endLines": "8",
                         "endColumns": "12",
-                        "endOffsets": "476"
+                        "endOffsets": "484"
                     },
                     "to": {
                         "startLines": "2",
@@ -6196,13 +6196,13 @@
             "outputFile": "com.example.kitsuapi.app-merged_res-41:/values-w600dp-v13_values-w600dp-v13.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "16",
+                        "startOffsets": "17",
                         "endColumns": "41",
-                        "endOffsets": "53"
+                        "endOffsets": "54"
                     },
                     "to": {
                         "startLines": "2",
@@ -6590,14 +6590,14 @@
             "outputFile": "com.example.kitsuapi.app-merged_res-41:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "D:\\Api\\CarvalhoCiprianoAtual\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "100",
+                        "startOffsets": "102",
                         "endLines": "5",
                         "endColumns": "12",
-                        "endOffsets": "315"
+                        "endOffsets": "320"
                     },
                     "to": {
                         "startLines": "2",
