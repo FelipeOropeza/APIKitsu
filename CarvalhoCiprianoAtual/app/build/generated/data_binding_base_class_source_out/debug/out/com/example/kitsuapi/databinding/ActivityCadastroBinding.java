@@ -36,9 +36,6 @@ public final class ActivityCadastroBinding implements ViewBinding {
   public final ImageView imageView3;
 
   @NonNull
-  public final ImageView imageView6;
-
-  @NonNull
   public final EditText txtconfirmar;
 
   @NonNull
@@ -53,39 +50,20 @@ public final class ActivityCadastroBinding implements ViewBinding {
   @NonNull
   public final TextView welcomeTxt;
 
-  @NonNull
-  public final TextView welcomeTxt2;
-
-  @NonNull
-  public final TextView welcomeTxt3;
-
-  @NonNull
-  public final TextView welcomeTxt4;
-
-  @NonNull
-  public final TextView welcomeTxt5;
-
   private ActivityCadastroBinding(@NonNull ConstraintLayout rootView, @NonNull CardView HomeCard,
       @NonNull CardView Login, @NonNull Button btnlogin, @NonNull ImageView imageView3,
-      @NonNull ImageView imageView6, @NonNull EditText txtconfirmar, @NonNull EditText txtemail,
-      @NonNull EditText txtnome, @NonNull EditText txtsenha, @NonNull TextView welcomeTxt,
-      @NonNull TextView welcomeTxt2, @NonNull TextView welcomeTxt3, @NonNull TextView welcomeTxt4,
-      @NonNull TextView welcomeTxt5) {
+      @NonNull EditText txtconfirmar, @NonNull EditText txtemail, @NonNull EditText txtnome,
+      @NonNull EditText txtsenha, @NonNull TextView welcomeTxt) {
     this.rootView = rootView;
     this.HomeCard = HomeCard;
     this.Login = Login;
     this.btnlogin = btnlogin;
     this.imageView3 = imageView3;
-    this.imageView6 = imageView6;
     this.txtconfirmar = txtconfirmar;
     this.txtemail = txtemail;
     this.txtnome = txtnome;
     this.txtsenha = txtsenha;
     this.welcomeTxt = welcomeTxt;
-    this.welcomeTxt2 = welcomeTxt2;
-    this.welcomeTxt3 = welcomeTxt3;
-    this.welcomeTxt4 = welcomeTxt4;
-    this.welcomeTxt5 = welcomeTxt5;
   }
 
   @Override
@@ -139,12 +117,6 @@ public final class ActivityCadastroBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView6;
-      ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView6 == null) {
-        break missingId;
-      }
-
       id = R.id.txtconfirmar;
       EditText txtconfirmar = ViewBindings.findChildViewById(rootView, id);
       if (txtconfirmar == null) {
@@ -175,33 +147,8 @@ public final class ActivityCadastroBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.welcome_txt2;
-      TextView welcomeTxt2 = ViewBindings.findChildViewById(rootView, id);
-      if (welcomeTxt2 == null) {
-        break missingId;
-      }
-
-      id = R.id.welcome_txt3;
-      TextView welcomeTxt3 = ViewBindings.findChildViewById(rootView, id);
-      if (welcomeTxt3 == null) {
-        break missingId;
-      }
-
-      id = R.id.welcome_txt4;
-      TextView welcomeTxt4 = ViewBindings.findChildViewById(rootView, id);
-      if (welcomeTxt4 == null) {
-        break missingId;
-      }
-
-      id = R.id.welcome_txt5;
-      TextView welcomeTxt5 = ViewBindings.findChildViewById(rootView, id);
-      if (welcomeTxt5 == null) {
-        break missingId;
-      }
-
       return new ActivityCadastroBinding((ConstraintLayout) rootView, HomeCard, Login, btnlogin,
-          imageView3, imageView6, txtconfirmar, txtemail, txtnome, txtsenha, welcomeTxt,
-          welcomeTxt2, welcomeTxt3, welcomeTxt4, welcomeTxt5);
+          imageView3, txtconfirmar, txtemail, txtnome, txtsenha, welcomeTxt);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

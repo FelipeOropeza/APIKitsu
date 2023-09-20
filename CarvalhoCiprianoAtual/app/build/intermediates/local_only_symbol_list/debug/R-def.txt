@@ -11,6 +11,8 @@ color light_blue_900
 color white
 dimen fab_margin
 dimen widget_margin
+drawable android_large___1
+drawable android_large___1__2_
 drawable app_widget_background
 drawable app_widget_inner_view_background
 drawable background_home
@@ -33,7 +35,6 @@ id btnlogin
 id epText
 id imageButton
 id imageView3
-id imageView6
 id linearLayout
 id livroInput
 id nav_graph
@@ -46,10 +47,6 @@ id txtnome
 id txtsenha
 id usergreetings
 id welcome_txt
-id welcome_txt2
-id welcome_txt3
-id welcome_txt4
-id welcome_txt5
 layout activity_cadastro
 layout activity_main
 layout new_app_widget

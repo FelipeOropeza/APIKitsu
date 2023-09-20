@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class cadastro extends AppCompatActivity {
 
@@ -43,17 +44,42 @@ public class cadastro extends AppCompatActivity {
         String nomes = nome.getText().toString();
         String emails = email.getText().toString();
         String senhas = senha.getText().toString();
+        String confirsenha = confirmar.getText().toString();
 
-        cad = new Cad(nomes, emails, senhas);
-
-        System.out.println(cad);
-
-        if (mydb.insertUsuario(cad)) {
-            String message = ("Cadastro Realizado");
-            texto.setText(message);
-        } else {
-            texto.setText("Cadastro Falhou");
+        if(nomes.equals("") && emails.equals("") && senhas.equals("")){
+            Toast.makeText(getApplicationContext(), "Obrigatorio preencher os campos",
+                    Toast.LENGTH_SHORT).show();
         }
+        else if(nomes.equals("")){
+            Toast.makeText(getApplicationContext(), "Preencha o campo Nome",
+                    Toast.LENGTH_SHORT).show();
+        }
+        else if(emails.equals("")){
+            Toast.makeText(getApplicationContext(), "Preencha o campo Email",
+                    Toast.LENGTH_SHORT).show();
+        }
+        else if(senhas.equals("")){
+            Toast.makeText(getApplicationContext(), "Preencha o campo Senha",
+                    Toast.LENGTH_SHORT).show();
+        }
+        else{
+            cad = new Cad(nomes, emails, senhas);
+
+            System.out.println(cad);
+
+            if (mydb.insertUsuario(cad)) {
+                Toast.makeText(getApplicationContext(), "Done",
+                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            } else {
+                Toast.makeText(getApplicationContext(), "Not done",
+                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        }
+
     }
 
     public void TelaPrincipal(View view){
