@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        nmLivro = findViewById(R.id.livroInput);
+        nmLivro = findViewById(R.id.animeinput);
         nmTitulo = findViewById(R.id.tituloText);
         nmAutor = findViewById(R.id.autorText);
         nmEp = findViewById(R.id.epText);
@@ -156,6 +156,11 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     public void AcessaCadastro(View view){
         Intent intent = new Intent(this, cadastro.class);
+        startActivity(intent); //Abre a segunda activity
+    }
+
+    public void AcessaPerso(View view){
+        Intent intent = new Intent(this, Perso.class);
         startActivity(intent); //Abre a segunda activity
     }
 }

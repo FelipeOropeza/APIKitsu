@@ -23,10 +23,16 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final EditText animeinput;
+
+  @NonNull
   public final TextView autorText;
 
   @NonNull
   public final ImageButton btnBusca;
+
+  @NonNull
+  public final ImageButton btnPerso;
 
   @NonNull
   public final TextView epText;
@@ -36,9 +42,6 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public final LinearLayout linearLayout;
-
-  @NonNull
-  public final EditText livroInput;
 
   @NonNull
   public final TextView sinText;
@@ -52,17 +55,19 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView usergreetings;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull TextView autorText,
-      @NonNull ImageButton btnBusca, @NonNull TextView epText, @NonNull ImageButton imageButton,
-      @NonNull LinearLayout linearLayout, @NonNull EditText livroInput, @NonNull TextView sinText,
-      @NonNull TextView tempsText, @NonNull TextView tituloText, @NonNull TextView usergreetings) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull EditText animeinput,
+      @NonNull TextView autorText, @NonNull ImageButton btnBusca, @NonNull ImageButton btnPerso,
+      @NonNull TextView epText, @NonNull ImageButton imageButton,
+      @NonNull LinearLayout linearLayout, @NonNull TextView sinText, @NonNull TextView tempsText,
+      @NonNull TextView tituloText, @NonNull TextView usergreetings) {
     this.rootView = rootView;
+    this.animeinput = animeinput;
     this.autorText = autorText;
     this.btnBusca = btnBusca;
+    this.btnPerso = btnPerso;
     this.epText = epText;
     this.imageButton = imageButton;
     this.linearLayout = linearLayout;
-    this.livroInput = livroInput;
     this.sinText = sinText;
     this.tempsText = tempsText;
     this.tituloText = tituloText;
@@ -96,6 +101,12 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.animeinput;
+      EditText animeinput = ViewBindings.findChildViewById(rootView, id);
+      if (animeinput == null) {
+        break missingId;
+      }
+
       id = R.id.autorText;
       TextView autorText = ViewBindings.findChildViewById(rootView, id);
       if (autorText == null) {
@@ -105,6 +116,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.btnBusca;
       ImageButton btnBusca = ViewBindings.findChildViewById(rootView, id);
       if (btnBusca == null) {
+        break missingId;
+      }
+
+      id = R.id.btnPerso;
+      ImageButton btnPerso = ViewBindings.findChildViewById(rootView, id);
+      if (btnPerso == null) {
         break missingId;
       }
 
@@ -123,12 +140,6 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.linearLayout;
       LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout == null) {
-        break missingId;
-      }
-
-      id = R.id.livroInput;
-      EditText livroInput = ViewBindings.findChildViewById(rootView, id);
-      if (livroInput == null) {
         break missingId;
       }
 
@@ -156,8 +167,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, autorText, btnBusca, epText,
-          imageButton, linearLayout, livroInput, sinText, tempsText, tituloText, usergreetings);
+      return new ActivityMainBinding((ConstraintLayout) rootView, animeinput, autorText, btnBusca,
+          btnPerso, epText, imageButton, linearLayout, sinText, tempsText, tituloText,
+          usergreetings);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

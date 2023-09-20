@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-merged_res-41:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-merged_res-41:\\layout_activity_cadastro.xml.flat",
         "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\layout\\activity_cadastro.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-merged_res-41:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-merged_res-41:\\drawable_ic_launcher_background.xml.flat",
@@ -76,6 +76,10 @@
         "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-merged_res-41:\\layout_activity_perso.xml.flat",
+        "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\layout\\activity_perso.xml"
+    },
+    {
         "merged": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-merged_res-41:\\xml_new_app_widget_info.xml.flat",
         "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\xml\\new_app_widget_info.xml"
     },
@@ -90,6 +94,10 @@
     {
         "merged": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-merged_res-41:\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.kitsuapi.app-merged_res-41:/layout_activity_main.xml.flat",
+        "source": "com.example.kitsuapi.app-main-43:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-merged_res-41:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -112,16 +120,16 @@
         "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.kitsuapi.app-merged_res-41:/layout_activity_cadastro.xml.flat",
-        "source": "com.example.kitsuapi.app-main-43:/layout/activity_cadastro.xml"
-    },
-    {
         "merged": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-merged_res-41:\\drawable_android_large___1.png.flat",
         "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\drawable\\android_large___1.png"
     },
     {
         "merged": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-merged_res-41:\\drawable_usericon.png.flat",
         "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\drawable\\usericon.png"
+    },
+    {
+        "merged": "com.example.kitsuapi.app-merged_res-41:/layout_activity_perso.xml.flat",
+        "source": "com.example.kitsuapi.app-main-43:/layout/activity_perso.xml"
     },
     {
         "merged": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-merged_res-41:\\xml_backup_rules.xml.flat",

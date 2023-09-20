@@ -4,15 +4,23 @@
         "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\layout\\activity_cadastro.xml"
     },
     {
+        "merged": "com.example.kitsuapi.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.example.kitsuapi.app-main-43:/layout/activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-mergeDebugResources-40:\\layout\\activity_main.xml",
         "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-mergeDebugResources-40:\\layout\\new_app_widget.xml",
-        "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\layout\\new_app_widget.xml"
+        "merged": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-mergeDebugResources-40:\\layout\\activity_perso.xml",
+        "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\layout\\activity_perso.xml"
     },
     {
-        "merged": "com.example.kitsuapi.app-mergeDebugResources-40:/layout/activity_cadastro.xml",
-        "source": "com.example.kitsuapi.app-main-43:/layout/activity_cadastro.xml"
+        "merged": "com.example.kitsuapi.app-mergeDebugResources-40:/layout/activity_perso.xml",
+        "source": "com.example.kitsuapi.app-main-43:/layout/activity_perso.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-mergeDebugResources-40:\\layout\\new_app_widget.xml",
+        "source": "C:\\Users\\Usuário\\.gradle\\daemon\\8.0\\com.example.kitsuapi.app-main-43:\\layout\\new_app_widget.xml"
     }
 ]

@@ -23,7 +23,7 @@
 
         <EditText
 
-            android:id="@+id/livroInput"
+            android:id="@+id/animeinput"
 
             android:layout_width="80dp"
 
@@ -173,6 +173,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.276" />
+
+    <ImageButton
+        android:id="@+id/btnPerso"
+        android:layout_width="104dp"
+        android:layout_height="80dp"
+        android:onClick="AcessaPerso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
+        tools:srcCompat="@tools:sample/avatars" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
