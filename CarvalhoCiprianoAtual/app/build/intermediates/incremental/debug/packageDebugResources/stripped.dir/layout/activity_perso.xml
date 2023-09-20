@@ -33,7 +33,7 @@
 
         <EditText
 
-            android:id="@+id/animeinput"
+            android:id="@+id/persoinput"
 
             android:layout_width="209dp"
 
@@ -41,10 +41,8 @@
 
             android:layout_marginLeft="50dp"
 
-            android:layout_marginTop="14dp"
-
+            android:layout_marginTop="15dp"
             android:layout_weight="1"
-
             android:autofillHints=""
             android:hint="Personagem"
             android:inputType="text"
@@ -60,29 +58,10 @@
             android:layout_marginTop="15dp"
             android:layout_marginRight="30dp"
             android:background="@drawable/searchicon"
-            android:onClick="buscaAnimes"
+            android:onClick="buscarPerso"
             tools:ignore="SpeakableTextPresentCheck" />
 
     </LinearLayout>
-
-    <TextView
-
-        android:id="@+id/epText"
-
-        android:layout_width="361dp"
-
-        android:layout_height="22dp"
-
-        android:gravity="center_horizontal"
-        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        android:textColorHint="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.167" />
 
     <TextView
 
@@ -101,6 +80,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.221" />
+
+    <TextView
+
+        android:id="@+id/nomeText"
+
+        android:layout_width="361dp"
+
+        android:layout_height="22dp"
+
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColorHint="@color/black"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="116dp" />
 
     <TextView
 

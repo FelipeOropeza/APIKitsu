@@ -42,7 +42,9 @@ id imageView3
 id linearLayout
 id metasText
 id nav_graph
+id nomeText
 id origemText
+id persoinput
 id poderText
 id sinText
 id tempsText
