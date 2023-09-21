@@ -110,8 +110,60 @@ public class Perso extends AppCompatActivity implements LoaderManager.LoaderCall
     }
 
     @Override
-    public void onLoadFinished(@NonNull Loader<String> loader, String data) {
-        // Termina
+    public void onLoadFinished(@NonNull Loader<String> loader, String id) {
+        try {
+            JSONObject jsonObject = new JSONObject(id);
+            JSONArray itemsArray = jsonObject.getJSONArray("id");
+            int i = 0;
+            String nome = null;
+            String origem = null;
+            String apelido = null;
+            String metas = null;
+            String poder = null;
+            String func = null;
+            while (i < itemsArray.length() &&
+                    (nome == null && origem == null && apelido == null
+                            && metas == null && poder == null && func == null)) {
+                JSONObject book = itemsArray.getJSONObject(i);
+                JSONObject attributes = book.getJSONObject("id");
+                JSONObject idpoder = attributes.getJSONObject("poder");
+                JSONObject idfunc = attributes.getJSONObject("func");
+                try {
+                    nome = attributes.getString("nome");
+                    origem = attributes.getString("origem");
+                    apelido = attributes.getString("apelido");
+                    metas = attributes.getString("metas");
+                    poder = idpoder.getString("resp");
+                    func = idfunc.getString("tipoFunc");
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+                i++;
+            }
+            if (nome != null && origem != null) {
+                nmNome.setText("Nome: " + nome);
+                nmOrigem.setText("Origem: " + origem);
+                nmApelido.setText("Apelido: " + apelido);
+                nmMetas.setText("Metas: " + metas);
+                nmPoder.setText("Respiracao: " + poder);
+                nmFunc.setText("Funcao: " + func);
+            } else {
+                nmNome.setText(R.string.str_empty);
+                nmOrigem.setText(R.string.str_empty);
+                nmApelido.setText(R.string.no_results);
+                nmMetas.setText(R.string.str_empty);
+                nmPoder.setText(R.string.str_empty);
+                nmFunc.setText(R.string.str_empty);
+            }
+        } catch (Exception e) {
+            nmNome.setText(R.string.str_empty);
+            nmOrigem.setText(R.string.str_empty);
+            nmApelido.setText(R.string.no_results);
+            nmMetas.setText(R.string.str_empty);
+            nmPoder.setText(R.string.str_empty);
+            nmFunc.setText(R.string.str_empty);
+            e.printStackTrace();
+        }
     }
 
     @Override
