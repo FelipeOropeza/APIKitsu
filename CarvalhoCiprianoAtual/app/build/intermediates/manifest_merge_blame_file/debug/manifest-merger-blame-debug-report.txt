@@ -6,137 +6,137 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="26"
-8-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml
+8-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml
+9-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-11-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:5:5-79
-11-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:5:22-76
+11-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:5:22-76
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:6:5-67
-12-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:6:22-64
+12-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:6:22-64
 13
 14    <permission
-14-->[androidx.core:core:1.9.0] C:\Users\Usuário\.gradle\caches\transforms-3\6690daf909aed306e83f580bdb482290\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14-->[androidx.core:core:1.9.0] C:\Users\3jd\.gradle\caches\transforms-3\6690daf909aed306e83f580bdb482290\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 15        android:name="com.example.kitsuapi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-15-->[androidx.core:core:1.9.0] C:\Users\Usuário\.gradle\caches\transforms-3\6690daf909aed306e83f580bdb482290\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15-->[androidx.core:core:1.9.0] C:\Users\3jd\.gradle\caches\transforms-3\6690daf909aed306e83f580bdb482290\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 16        android:protectionLevel="signature" />
-16-->[androidx.core:core:1.9.0] C:\Users\Usuário\.gradle\caches\transforms-3\6690daf909aed306e83f580bdb482290\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16-->[androidx.core:core:1.9.0] C:\Users\3jd\.gradle\caches\transforms-3\6690daf909aed306e83f580bdb482290\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 17
 18    <uses-permission android:name="com.example.kitsuapi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-18-->[androidx.core:core:1.9.0] C:\Users\Usuário\.gradle\caches\transforms-3\6690daf909aed306e83f580bdb482290\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-18-->[androidx.core:core:1.9.0] C:\Users\Usuário\.gradle\caches\transforms-3\6690daf909aed306e83f580bdb482290\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18-->[androidx.core:core:1.9.0] C:\Users\3jd\.gradle\caches\transforms-3\6690daf909aed306e83f580bdb482290\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\3jd\.gradle\caches\transforms-3\6690daf909aed306e83f580bdb482290\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:8:5-46:19
+20-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:8:5-46:19
 21        android:allowBackup="true"
-21-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:9:9-35
+21-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:9:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.9.0] C:\Users\Usuário\.gradle\caches\transforms-3\6690daf909aed306e83f580bdb482290\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22-->[androidx.core:core:1.9.0] C:\Users\3jd\.gradle\caches\transforms-3\6690daf909aed306e83f580bdb482290\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:10:9-65
+23-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:10:9-65
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:fullBackupContent="@xml/backup_rules"
-26-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:11:9-54
+26-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:11:9-54
 27        android:icon="@mipmap/mainicon"
-27-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:12:9-40
+27-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:12:9-40
 28        android:label="@string/app_name"
-28-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:13:9-41
+28-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:13:9-41
 29        android:roundIcon="@mipmap/mainicon"
-29-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:14:9-45
+29-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:14:9-45
 30        android:supportsRtl="true"
-30-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:15:9-35
+30-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:15:9-35
 31        android:testOnly="true"
 32        android:theme="@style/Theme.KitsuApi" >
-32-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:16:9-46
+32-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:16:9-46
 33        <activity
-33-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:18:9-20:40
+33-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:18:9-20:40
 34            android:name="com.example.kitsuapi.Perso"
-34-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:19:13-34
+34-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:19:13-34
 35            android:exported="false" />
-35-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:20:13-37
+35-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:20:13-37
 36
 37        <receiver
-37-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:22:9-32:20
+37-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:22:9-32:20
 38            android:name="com.example.kitsuapi.NewAppWidget"
-38-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:23:13-41
+38-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:23:13-41
 39            android:exported="false" >
-39-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:24:13-37
+39-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:24:13-37
 40            <intent-filter>
-40-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:25:13-27:29
+40-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:25:13-27:29
 41                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-41-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:26:17-84
-41-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:26:25-81
+41-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:26:17-84
+41-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:26:25-81
 42            </intent-filter>
 43
 44            <meta-data
-44-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:29:13-31:63
+44-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:29:13-31:63
 45                android:name="android.appwidget.provider"
-45-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:30:17-58
+45-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:30:17-58
 46                android:resource="@xml/new_app_widget_info" />
-46-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:31:17-60
+46-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:31:17-60
 47        </receiver>
 48
 49        <activity
-49-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:34:9-36:39
+49-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:34:9-36:39
 50            android:name="com.example.kitsuapi.cadastro"
-50-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:35:13-37
+50-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:35:13-37
 51            android:exported="true" />
-51-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:36:13-36
+51-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:36:13-36
 52        <activity
-52-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:37:9-45:20
+52-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:37:9-45:20
 53            android:name="com.example.kitsuapi.MainActivity"
-53-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:38:13-41
+53-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:38:13-41
 54            android:exported="true" >
-54-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:39:13-36
+54-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:39:13-36
 55            <intent-filter>
-55-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:40:13-44:29
+55-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:40:13-44:29
 56                <action android:name="android.intent.action.MAIN" />
-56-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:41:17-69
-56-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:41:25-66
+56-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:41:17-69
+56-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:41:25-66
 57
 58                <category android:name="android.intent.category.LAUNCHER" />
-58-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:43:17-77
-58-->D:\Api\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:43:27-74
+58-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:43:17-77
+58-->C:\Users\3jd\AndroidStudioProjects\APIKitsu2\CarvalhoCiprianoAtual\app\src\main\AndroidManifest.xml:43:27-74
 59            </intent-filter>
 60        </activity>
 61
 62        <provider
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Usuário\.gradle\caches\transforms-3\135ca283e7cf3d338f7d6eff1b42490b\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\3jd\.gradle\caches\transforms-3\135ca283e7cf3d338f7d6eff1b42490b\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 63            android:name="androidx.startup.InitializationProvider"
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Usuário\.gradle\caches\transforms-3\135ca283e7cf3d338f7d6eff1b42490b\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\3jd\.gradle\caches\transforms-3\135ca283e7cf3d338f7d6eff1b42490b\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 64            android:authorities="com.example.kitsuapi.androidx-startup"
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Usuário\.gradle\caches\transforms-3\135ca283e7cf3d338f7d6eff1b42490b\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\3jd\.gradle\caches\transforms-3\135ca283e7cf3d338f7d6eff1b42490b\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 65            android:exported="false" >
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Usuário\.gradle\caches\transforms-3\135ca283e7cf3d338f7d6eff1b42490b\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\3jd\.gradle\caches\transforms-3\135ca283e7cf3d338f7d6eff1b42490b\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 66            <meta-data
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Usuário\.gradle\caches\transforms-3\135ca283e7cf3d338f7d6eff1b42490b\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\3jd\.gradle\caches\transforms-3\135ca283e7cf3d338f7d6eff1b42490b\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Usuário\.gradle\caches\transforms-3\135ca283e7cf3d338f7d6eff1b42490b\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\3jd\.gradle\caches\transforms-3\135ca283e7cf3d338f7d6eff1b42490b\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 68                android:value="androidx.startup" />
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Usuário\.gradle\caches\transforms-3\135ca283e7cf3d338f7d6eff1b42490b\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\3jd\.gradle\caches\transforms-3\135ca283e7cf3d338f7d6eff1b42490b\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 69            <meta-data
-69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Usuário\.gradle\caches\transforms-3\db10c956bc7bde65dde29329887f7884\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\3jd\.gradle\caches\transforms-3\db10c956bc7bde65dde29329887f7884\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Usuário\.gradle\caches\transforms-3\db10c956bc7bde65dde29329887f7884\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\3jd\.gradle\caches\transforms-3\db10c956bc7bde65dde29329887f7884\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 71                android:value="androidx.startup" />
-71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Usuário\.gradle\caches\transforms-3\db10c956bc7bde65dde29329887f7884\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\3jd\.gradle\caches\transforms-3\db10c956bc7bde65dde29329887f7884\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 72        </provider>
 73
 74        <uses-library
-74-->[androidx.window:window:1.0.0] C:\Users\Usuário\.gradle\caches\transforms-3\203d82f933ca88c591d4ac2b60867d64\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+74-->[androidx.window:window:1.0.0] C:\Users\3jd\.gradle\caches\transforms-3\203d82f933ca88c591d4ac2b60867d64\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 75            android:name="androidx.window.extensions"
-75-->[androidx.window:window:1.0.0] C:\Users\Usuário\.gradle\caches\transforms-3\203d82f933ca88c591d4ac2b60867d64\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+75-->[androidx.window:window:1.0.0] C:\Users\3jd\.gradle\caches\transforms-3\203d82f933ca88c591d4ac2b60867d64\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 76            android:required="false" />
-76-->[androidx.window:window:1.0.0] C:\Users\Usuário\.gradle\caches\transforms-3\203d82f933ca88c591d4ac2b60867d64\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+76-->[androidx.window:window:1.0.0] C:\Users\3jd\.gradle\caches\transforms-3\203d82f933ca88c591d4ac2b60867d64\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
 77        <uses-library
-77-->[androidx.window:window:1.0.0] C:\Users\Usuário\.gradle\caches\transforms-3\203d82f933ca88c591d4ac2b60867d64\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+77-->[androidx.window:window:1.0.0] C:\Users\3jd\.gradle\caches\transforms-3\203d82f933ca88c591d4ac2b60867d64\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
 78            android:name="androidx.window.sidecar"
-78-->[androidx.window:window:1.0.0] C:\Users\Usuário\.gradle\caches\transforms-3\203d82f933ca88c591d4ac2b60867d64\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+78-->[androidx.window:window:1.0.0] C:\Users\3jd\.gradle\caches\transforms-3\203d82f933ca88c591d4ac2b60867d64\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 79            android:required="false" />
-79-->[androidx.window:window:1.0.0] C:\Users\Usuário\.gradle\caches\transforms-3\203d82f933ca88c591d4ac2b60867d64\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+79-->[androidx.window:window:1.0.0] C:\Users\3jd\.gradle\caches\transforms-3\203d82f933ca88c591d4ac2b60867d64\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 80    </application>
 81
 82</manifest>

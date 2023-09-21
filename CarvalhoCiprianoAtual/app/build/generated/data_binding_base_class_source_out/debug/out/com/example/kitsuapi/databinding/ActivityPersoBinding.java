@@ -24,16 +24,10 @@ public final class ActivityPersoBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final EditText animeinput;
-
-  @NonNull
   public final TextView apelidoText;
 
   @NonNull
   public final ImageButton btnBusca;
-
-  @NonNull
-  public final TextView epText;
 
   @NonNull
   public final TextView funcText;
@@ -48,25 +42,31 @@ public final class ActivityPersoBinding implements ViewBinding {
   public final TextView metasText;
 
   @NonNull
+  public final TextView nomeText;
+
+  @NonNull
   public final TextView origemText;
+
+  @NonNull
+  public final EditText persoinput;
 
   @NonNull
   public final TextView poderText;
 
-  private ActivityPersoBinding(@NonNull ConstraintLayout rootView, @NonNull EditText animeinput,
-      @NonNull TextView apelidoText, @NonNull ImageButton btnBusca, @NonNull TextView epText,
-      @NonNull TextView funcText, @NonNull ImageView imageView3, @NonNull LinearLayout linearLayout,
-      @NonNull TextView metasText, @NonNull TextView origemText, @NonNull TextView poderText) {
+  private ActivityPersoBinding(@NonNull ConstraintLayout rootView, @NonNull TextView apelidoText,
+      @NonNull ImageButton btnBusca, @NonNull TextView funcText, @NonNull ImageView imageView3,
+      @NonNull LinearLayout linearLayout, @NonNull TextView metasText, @NonNull TextView nomeText,
+      @NonNull TextView origemText, @NonNull EditText persoinput, @NonNull TextView poderText) {
     this.rootView = rootView;
-    this.animeinput = animeinput;
     this.apelidoText = apelidoText;
     this.btnBusca = btnBusca;
-    this.epText = epText;
     this.funcText = funcText;
     this.imageView3 = imageView3;
     this.linearLayout = linearLayout;
     this.metasText = metasText;
+    this.nomeText = nomeText;
     this.origemText = origemText;
+    this.persoinput = persoinput;
     this.poderText = poderText;
   }
 
@@ -97,12 +97,6 @@ public final class ActivityPersoBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.animeinput;
-      EditText animeinput = ViewBindings.findChildViewById(rootView, id);
-      if (animeinput == null) {
-        break missingId;
-      }
-
       id = R.id.apelidoText;
       TextView apelidoText = ViewBindings.findChildViewById(rootView, id);
       if (apelidoText == null) {
@@ -112,12 +106,6 @@ public final class ActivityPersoBinding implements ViewBinding {
       id = R.id.btnBusca;
       ImageButton btnBusca = ViewBindings.findChildViewById(rootView, id);
       if (btnBusca == null) {
-        break missingId;
-      }
-
-      id = R.id.epText;
-      TextView epText = ViewBindings.findChildViewById(rootView, id);
-      if (epText == null) {
         break missingId;
       }
 
@@ -145,9 +133,21 @@ public final class ActivityPersoBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.nomeText;
+      TextView nomeText = ViewBindings.findChildViewById(rootView, id);
+      if (nomeText == null) {
+        break missingId;
+      }
+
       id = R.id.origemText;
       TextView origemText = ViewBindings.findChildViewById(rootView, id);
       if (origemText == null) {
+        break missingId;
+      }
+
+      id = R.id.persoinput;
+      EditText persoinput = ViewBindings.findChildViewById(rootView, id);
+      if (persoinput == null) {
         break missingId;
       }
 
@@ -157,8 +157,8 @@ public final class ActivityPersoBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityPersoBinding((ConstraintLayout) rootView, animeinput, apelidoText,
-          btnBusca, epText, funcText, imageView3, linearLayout, metasText, origemText, poderText);
+      return new ActivityPersoBinding((ConstraintLayout) rootView, apelidoText, btnBusca, funcText,
+          imageView3, linearLayout, metasText, nomeText, origemText, persoinput, poderText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

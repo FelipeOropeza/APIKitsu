@@ -2891,6 +2891,7 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
+id nomeText
 id none
 id normal
 id north
@@ -2915,6 +2916,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id persoinput
 id pin
 id poderText
 id position
